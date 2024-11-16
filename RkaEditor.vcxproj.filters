@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PreCompile">
+      <UniqueIdentifier>{a46f3765-b148-4757-858e-f9acfb1d13a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyFileDialogs">
+      <UniqueIdentifier>{08b9be2f-c84b-4cd3-8ff7-3504232d6a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\Data">
+      <UniqueIdentifier>{4ffe1d5d-27ea-49eb-8b51-0c954eda6b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\Data">
+      <UniqueIdentifier>{e727afe4-a668-4e3a-a057-e5dd74b3c88a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="PchCreator.cpp">
+      <Filter>PreCompile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\TinyFileDialogs\tinyfiledialogs.c">
+      <Filter>TinyFileDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RkaEditor.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Data\Man.cpp">
+      <Filter>來源檔案\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Data\Magic.cpp">
+      <Filter>來源檔案\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Data\Item.cpp">
+      <Filter>來源檔案\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Pch.h">
+      <Filter>PreCompile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\TinyFileDialogs\tinyfiledialogs.h">
+      <Filter>TinyFileDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Data\Man.h">
+      <Filter>標頭檔\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Data\Magic.h">
+      <Filter>標頭檔\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Data\Item.h">
+      <Filter>標頭檔\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Data\Common.h">
+      <Filter>標頭檔\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
